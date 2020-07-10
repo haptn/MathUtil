@@ -9,7 +9,8 @@ as a part of Introduction to Software Engineering course at FPT University, HCMC
 * Markdown code - this file itself
 
 ## Connect me via
-1. [Facebook] (https://www.facebook.com/HaPTN1/)
-2. [GitHub] (https://github.com/haptn)
+1. [Facebook](https://www.facebook.com/HaPTN1/)
+2. [GitHub](https://github.com/haptn)
+3. [Email](haptnHt@gmail.com)
 
-#### © 2020 by Ha Pham Thi Ngoc
+#### © 2020 by Ha Pham Thi Ngoc | FPT University HCMC
