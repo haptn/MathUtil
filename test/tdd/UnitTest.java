@@ -7,7 +7,7 @@ package tdd;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import util.MathUtil;
+import static util.MathUtil.computeFactorial;
 
 /**
  *
@@ -46,8 +46,8 @@ public class UnitTest
     
     @Test (expected = IllegalArgumentException.class)
     public void testFailedCases() {
-        MathUtil.computeFactorial(-5);
-        MathUtil.computeFactorial(16);
+        computeFactorial(-5);
+        computeFactorial(16);
         // Hàm này dùng để test các tình huống cà chớn đến từ người dùng.
         // VD users muốn tính -5! thì ko cho phép.
         // Khi đó, trong thiết kế của hàm cF(), ta phải dự liệu tình huống cà 

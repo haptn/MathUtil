@@ -13,8 +13,8 @@ import static util.MathUtil.computeFactorial; //import hàm static
  *
  * @author Vu Quoc Hung
  */
-public class MathUtilMain {
-   
+public class MathUtilMain 
+{   
     public static void main(String[] args) 
     {
         // 5! hy vọng máy sẽ in ra 120
@@ -51,5 +51,4 @@ public class MathUtilMain {
         // Kỹ thuật này gọi là TDD kết hợp vs UnitTesting xài các thư viện phụ trợ
         // JUnit, NUnit, TestNG, xUnit, MSTest, PHPUnit, CPPUnit,...
     }
-    
 }
