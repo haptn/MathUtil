@@ -15,8 +15,8 @@ package util;
 public class MathUtil {
     
     public static long computeFactorial(int n) {
-        if (n < 0 || n > 15)
-            throw new IllegalArgumentException("Invalid argument. n must be >= 0 and <= 15.");
+//        if (n < 0 || n > 15)
+//            throw new IllegalArgumentException("Invalid argument. n must be >= 0 and <= 15.");
         // Cách 1: Lúc đầu
 //        long rs = 1;
 //        for (int i = 1; i <= n; i++) {
@@ -25,8 +25,8 @@ public class MathUtil {
 //        return rs;
 
         // Cách 2: Nâng cấp lên thành đệ quy
-        if (n == 0 || n == 1)
-            return 1;   // Điểm dừng của đệ quy
+//        if (n == 0 || n == 1)
+//            return 1;   // Điểm dừng của đệ quy
         // Sống sót đến dưới đây, sure, n 2..15
         // ta ko xài else làm gì cả, xài else trừ điểm
         return n * computeFactorial(n-1); // n! = n*(n-1)!
